@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -34,15 +34,16 @@ input{
     transition: all 0.3s ease;
 }
 #addBtn:hover{opacity: 0.8;}
-.actions{
+.controls{
     display: flex;
     margin-top: 1rem;
     gap: 0.8rem;
     justify-content: right;
 }
-.actions button{
+.controls button{
     padding: 1rem;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 .filter-btn.active{
     background-color: green;
@@ -54,4 +55,28 @@ input{
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+li{
+ background:#f4f4f4;
+ margin-bottom: 1rem;
+ padding: 1.6rem;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+   
+
+}
+.contentDiv{
+    display: flex;
+    gap: 1rem;
+}
+.actions{
+    display: flex;
+    gap: 1rem;
+}
+.actions button{
+    padding: 1rem;
+}
+
 
