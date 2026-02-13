@@ -1,4 +1,4 @@
- const notesInput=document.getElementById("notesInput");
+        const notesInput=document.getElementById("notesInput");
         const addBtn=document.getElementById("addBtn");
         const noteRecords=document.getElementById("noteRecords");
         const filteredBtns=document.querySelectorAll(".filter-btn");
@@ -113,10 +113,11 @@
                     filteredBtns.forEach(b=>b.classList.remove("active"));
                     btn.classList.add("active");
                     currentFilter=btn.dataset.filter;
-                    renderNotes()
+                    renderNotes();
                 })
             })
 
             loadNotes();
-            renderNotes()
+            renderNotes();
+
 
