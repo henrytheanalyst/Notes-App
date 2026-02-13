@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/">
+    <title>NOTES APP</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    
+    <div class="container">
+        <h1>📝 Notes</h1>
+        <input type="text" name="" id="notesInput" placeholder="Type your note here">
+        <button id="addBtn">Add Note</button>
+        <div class="controls">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+        <ul id="noteRecords">
 
-    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>
+        </ul>
+    </div>
+ 
+
+    <script src="index.js"></script>
 </body>
 </html>
